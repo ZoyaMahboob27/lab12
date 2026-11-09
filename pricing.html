@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cocoa Lane - Pricing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <h2>Customize Your Mystery Box</h2>
+    <p>Select your flavor profile to reveal your custom box price.</p>
+
+    <div class="mystery-box">
+      <h3>The Cocoa Lane Box</h3>
+      <div class="options">
+        <button class="options-btn active-btn" data-type="mixed">Mixed Assortment</button>
+        <button class="options-btn" data-type="dark">All Dark Chocolate</button>
+        <button class="options-btn" data-type="white">All White Chocolate</button>
+      </div>
+      <p class="price-display" id="box-price">Rs 2500</p>
+      <button class="order-btn" onclick="orderChocolate()">Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,46 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Cocoa Lane</title>
+  <meta charset="UTF-8">
+  <title>Cocoa Lane - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Cocoa Chocolate shop</h1>
-  <p>Homemade chocolates made fresh every week.</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
 
-  <img src="images/chocolate.svg" alt="Chocolate bar" width="300">
+  <div class="container">
+    <h1>Cocoa Chocolate Shop</h1>
+    <p>Homemade chocolates made fresh every week.</p>
 
-  <h2>Our Chocolates</h2>
-  <h3> This is another chocolate</h3>
-  <table>
-    <tr>
-      <th>Chocolate</th>
-      <th>Price (Rs)</th>
-    </tr>
-    <tr>
-      <td>Milk Chocolate Bar</td>
-      <td>450</td>
-    </tr>
-    <tr>
-      <td>Dark Chocolate Bar</td>
-      <td>550</td>
-    </tr>
-    <tr>
-      <td>Chocolate Truffles</td>
-      <td>900</td>
-    </tr>
-  </table>
+    <div class="carousel-container">
+      <img src="images/image_0.jpg" class="slide active" alt="Milk Chocolate">
+      <img src="images/image_1.jpg" class="slide" alt="Dark Chocolate">
+      <img src="images/image_2.jpg" class="slide" alt="White Chocolate">
+      
+      <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+  </div>
 
-  <br>
-  <button onclick="orderChocolate()">Order</button>
-
-  <script>
-    function orderChocolate() {
-      console.log("Order button was clicked");
-      window.alert("Your chocolate has been ordered! Thank you.");
-    }
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>

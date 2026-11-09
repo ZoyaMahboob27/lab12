@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cocoa Lane - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <h2>Our Journey</h2>
+    <p class="story">
+      Cocoa Lane started in a small home kitchen with a simple mission: bringing authentic, small-batch chocolate to our local neighborhood. After years of experimenting with different roasting profiles and cocoa percentages, we expanded our reach. Today, we still hand-craft every bar, ensuring the same quality that sparked our journey on day one.
+    </p>
+
+    <div class="contact-form">
+      <h2>Get In Touch</h2>
+      <form onsubmit="submitContact(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="How can we help you?" rows="4" required></textarea>
+        <button type="submit" class="order-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
