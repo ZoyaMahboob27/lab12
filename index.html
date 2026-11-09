@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cocoa Lane</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Cocoa Lane</h1>
+  <p>Homemade chocolates made fresh every week.</p>
+
+  <img src="images/chocolate.svg" alt="Chocolate bar" width="300">
+
+  <h2>Our Chocolates</h2>
+  <table>
+    <tr>
+      <th>Chocolate</th>
+      <th>Price (Rs)</th>
+    </tr>
+    <tr>
+      <td>Milk Chocolate Bar</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>Dark Chocolate Bar</td>
+      <td>550</td>
+    </tr>
+    <tr>
+      <td>Chocolate Truffles</td>
+      <td>900</td>
+    </tr>
+  </table>
+
+  <br>
+  <button onclick="orderChocolate()">Order</button>
+
+  <script>
+    function orderChocolate() {
+      console.log("Order button was clicked");
+      window.alert("Your chocolate has been ordered! Thank you.");
+    }
+  </script>
+
+</body>
+</html>

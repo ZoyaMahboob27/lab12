@@ -1,0 +1,29 @@
+body {
+  background-color: #f5e6d3;
+  color: #4a2618;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 28px;
+}
+
+table, th, td {
+  border: 1px solid #4a2618;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+button {
+  background-color: #4a2618;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
